@@ -3,7 +3,7 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-image: url('/img/pokemon.jpg') ;
+    background-image: url('../img/pokemon.jpg') ;
     background-repeat: no-repeat;
     background-position: center center;
     background-attachment: fixed;
@@ -14,7 +14,7 @@ body {
     max-width: 800px;
     margin: 0 auto;
     padding: 20px;
-  }git
+  }
   
   h1 {
     text-align: center;

@@ -37,7 +37,7 @@ let pokemonData = [];
 // Función para inicializar la aplicación después de cargar los datos del archivo JSON
 async function cargarPokemons() {
     try {
-        const response = await fetch('./data/pokedex.json');
+        const response = await fetch('../data/pokedex.json');
         const pokemonsData = await response.json();
         const pokemons = pokemonsData.map(pokemonData => {
             const { ThumbnailImage, name, type, weight, abilities, height, weakness } = pokemonData;
